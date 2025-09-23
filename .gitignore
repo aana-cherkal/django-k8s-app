@@ -18,3 +18,7 @@ media/
 
 # VS Code
 .vscode/
+
+# Github Actions
+.github/workflows/
+
