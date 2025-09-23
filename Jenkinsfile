@@ -23,8 +23,8 @@ pipeline {
             steps {
                 sh '''
                 echo $DOCKER_HUB_CREDENTIALS_PSW | docker login -u $DOCKER_HUB_CREDENTIALS_USR --password-stdin
-                docker tag my-django-app aana-cherkal/my-django-app:latest
-                docker push aana-cherkal/my-django-app:latest
+                docker tag my-django-app aana30081234/my-django-app:latest
+                docker push aana30081234/my-django-app:latest
                 '''
             }
         }
