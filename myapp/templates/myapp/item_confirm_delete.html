@@ -1,0 +1,9 @@
+{% extends 'myapp/base.html' %} 
+{% block body %}
+    <form method='POST'>
+        {% csrf_token %}
+        Are You sure you want to delete?
+        <button type='submit'> Yes </button>
+
+    </form>
+{% endblock %}
