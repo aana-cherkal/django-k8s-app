@@ -1,0 +1,23 @@
+
+# Python
+*.pyc
+__pycache__/
+
+# Environment
+.env
+venv/
+env/
+
+# Django
+db.sqlite3
+/staticfiles/
+media/
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# Jenkins
+Jenkinsfile
