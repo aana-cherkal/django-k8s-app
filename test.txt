@@ -1,3 +1,1 @@
-Testing CI/CD workflow
- 
-Triggering CI/CD workflow after adding secrets
+Testing CI/CD workflow now
